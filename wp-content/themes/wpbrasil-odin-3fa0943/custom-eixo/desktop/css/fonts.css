@@ -7,5 +7,5 @@
   src: url(../../mulish-italic.ttf);
 }
 h1, h2, h3, h4, h5, span, p, a, button, ul, li, strong{
-	font-family: Mulish;
+	font-family: Mulish 'Mulish', sans-serif;
 }
