@@ -1,5 +1,7 @@
 .cartao-conteudo {
     max-width: 300px;
+    overflow:hidden;
+    border-radius: 42px;
 }
 .bgimagem-card {
     background-image: url("https://images.unsplash.com/photo-1598543821338-3b6306e0dcc3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmlzc2FuJTIwcjM1JTIwZ3RyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
