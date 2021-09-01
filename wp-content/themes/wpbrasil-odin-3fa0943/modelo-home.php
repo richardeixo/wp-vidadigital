@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Mobile Home
+ * Template Name: Modelo Home
  *
  * The template for displaying pages with sidebar.
  *
