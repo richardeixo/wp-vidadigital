@@ -10,6 +10,8 @@
  */
 ?>
 
-	<?php wp_footer(); ?>
+	
+	</div>
+	<script src="<?php bloginfo('template_directory') ?>/custom-eixo/bootstrap5/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

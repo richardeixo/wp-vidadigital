@@ -279,6 +279,7 @@ add_action( 'wp_enqueue_scripts', 'odin_enqueue_scripts', 1 );
  *
  * @return string      New URI.
  */
+
 function odin_stylesheet_uri( $uri, $dir ) {
 	return $dir . '/assets/css/style.css';
 }
