@@ -1,9 +1,2 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-	<h1>Teste</h1>
-</body>
-</html>
+<?php
+include('componentes-desk/slider.php');
