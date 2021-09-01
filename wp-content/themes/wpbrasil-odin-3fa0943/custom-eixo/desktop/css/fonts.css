@@ -1,0 +1,11 @@
+@font-face {
+  font-family: Mulish;
+  src: url(../../mulish.ttf);
+}
+@font-face {
+  font-family: Mulish Italic;
+  src: url(../../mulish-italic.ttf);
+}
+h1{
+	font-family: Mulish;
+}
