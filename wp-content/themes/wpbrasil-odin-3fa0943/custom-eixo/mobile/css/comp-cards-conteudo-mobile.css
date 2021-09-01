@@ -22,11 +22,16 @@
     text-decoration: none;
     font-size: 16px;
 }
+.cabecalho-card-div {
+    border-bottom: 1px solid white;
+    margin: 15px 0px;
+}
 .cabecalho-card h3 {
     font-size: 25px;
 }
 .cabecalho-card span {
-    font-size: 16px;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 .resumo-card {
     font-size: 16px;

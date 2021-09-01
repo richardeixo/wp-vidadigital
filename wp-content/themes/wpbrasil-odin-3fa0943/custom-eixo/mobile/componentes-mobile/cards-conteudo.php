@@ -10,6 +10,7 @@
         <span class="micro-infos">
           <span class="data-card">14 Agosto, 2021</span> | Categorias:<span class="categoria-card">News</span>
         </span>
+        <div class="cabecalho-card-div"></div>
       </div>
       <p class="resumo-card">Como utilizar o celular no ambiente de trabalho de forma produtiva [...]</p>
       <a href="#">Continue Lendo</a>
