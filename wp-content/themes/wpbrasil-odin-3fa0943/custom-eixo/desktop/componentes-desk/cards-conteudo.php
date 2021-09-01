@@ -1,5 +1,5 @@
 <div class="cartao-conteudo">
-  <div class="imagem-card">
+  <div class="bgimagem-card">
 
   </div>
   <div class="descrica-card">
