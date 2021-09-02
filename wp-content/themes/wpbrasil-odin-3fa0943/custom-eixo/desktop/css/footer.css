@@ -64,3 +64,26 @@
     font-family: Mulish Italic, sans-serif;
     font-style: italic;
 }
+.copyright{
+	background: #D13B38;
+    margin-top: 2px;
+    padding: 10px 0px;	
+}
+.txt-copy p{
+	margin: auto;
+}
+.txt-copy{
+	display: inline-flex;
+}
+.copy-icons{
+	display: inline-flex;
+	float: right;
+}
+.txt-copy p{
+	color: #fff;
+	font-style: italic;
+	font-size: 11px;
+}
+.copy-icons a{
+	padding: 0 5px;
+}

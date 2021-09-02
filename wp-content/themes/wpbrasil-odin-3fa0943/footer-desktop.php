@@ -51,6 +51,19 @@
 			</div>
 		</div>
 	</div>
+	<div class="copyright">
+		<div class="container">
+			<div class="txt-copy">
+				<p>Copyright ©  eixo</p>
+			</div>
+			<div class="copy-icons">
+				<a href=""><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-yt.png"></a>
+				<a href=""><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-ig.png"></a>
+				<a href=""><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-fb.png"></a>
+				<a href=""><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-tw.png"></a>
+			</div>
+		</div>
+	</div>
 	<script src="<?php bloginfo('template_directory') ?>/custom-eixo/bootstrap5/js/bootstrap.bundle.min.js"></script>
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/footer.css">
 </body>

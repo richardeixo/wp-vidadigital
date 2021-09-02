@@ -36,7 +36,7 @@
 	<div class="menu-fixo">
 		<div class="container header">
 			<div class="menu-logo">
-				<a href="#"><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/logo.png"></a>
+				<a href="<?php home_url() ?>"><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/logo.png"></a>
 			</div>
 			<div class="menu-itens">
 				<ul>
