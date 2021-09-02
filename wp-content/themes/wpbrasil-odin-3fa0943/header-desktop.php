@@ -21,6 +21,7 @@
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/bootstrap5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/fonts.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/global.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/header.css">
 	<?php  if (is_page('Home')){ ?>
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/slider-desk.css">
 	<?php }?>
@@ -28,6 +29,29 @@
 </head>
 
 <body <?php body_class(); ?>>
+	<div class="menu-fixo">
+		<div class="container header">
+			<div class="menu-logo">
+				<a href="#"><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/logo.png"></a>
+			</div>
+			<div class="menu-itens">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Sobre</a></li>
+					<li><a href="">Dicas da Bia</a></li>
+					<li><a href="">Trabalhe na Vida</a></li>
+					<li><a href="">Contato</a></li>
+				</ul>
+			</div>
+			<div class="menu-icons">
+				<a href=""><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-yt.png"></a>
+				<a href=""><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-ig.png"></a>
+				<a href=""><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-fb.png"></a>
+				<a href=""><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-tw.png"></a>
+				<a class="searchbutton" href=""><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/lupa.png"></a>
+			</div>
+		</div>
+	</div>
 		<div class="main">
 
 		

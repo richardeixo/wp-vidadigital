@@ -1,0 +1,66 @@
+.footer{
+	background: #D13B38;
+	padding: 60px 0;
+}
+.f-cols{
+	display: flex;
+}
+.f-col-1{
+	width: 25%;
+}
+.f-col-2{
+	width: 17%;
+}
+.f-col-3{
+	width: 30%;
+}
+.f-col-4{
+	width: 29%;
+}
+.f-logo{
+	width: 160px;
+    display: block;
+}
+.f-col-1 strong{
+	color: #fff;
+}
+.f-info{
+	padding: 15px 10px;
+}
+.f-info a{
+	color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+}
+.f-info a:hover{
+	font-weight: bold;
+}
+.f-mail{
+	margin-top: 10px;
+}
+.f-col-2 a, .f-col-3 a{
+	color: #fff;
+	font-size: 14px;
+	padding: 4px 0;
+	text-decoration: none;
+}
+.f-col-2 a:hover, .f-col-3 a:hover{
+	font-weight: bold;
+}
+.f-col-4 h2{
+	font-size: 26px;
+	color: #fff;
+}
+.f-col-4 input{
+	border: none;
+    height: 33px;
+}
+.f-col-4 button{
+	border: none;
+    height: 36px;
+    padding: 8px 18px;
+    background: #F30603;
+    color: #fff;
+    font-family: Mulish Italic, sans-serif;
+    font-style: italic;
+}

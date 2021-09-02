@@ -1,0 +1,44 @@
+.menu-fixo{
+	background: #D13B38;
+    display: flex;
+    position: sticky;
+}
+.header{
+	display: inline-flex;
+	align-items: center;
+	padding: 10px 0;
+}
+.menu-itens{
+	width: 70%;
+    display: inline-flex;
+    justify-content: center;
+    align-self: end;
+}
+.menu-itens ul li{
+	display: inline-flex;
+    position: relative;
+    float: left;
+}
+.menu-itens ul li a{
+	color: #fff;
+    padding: 0px 21px;
+    text-decoration: none;
+}
+.menu-itens ul li a:hover{
+	font-weight: bold;
+}
+.menu-logo{
+	width: 15%;
+}
+.menu-icons{
+	width: 15%;
+}
+.menu-icons a{
+	padding: 0 5px;
+}
+.searchbutton{
+	padding-left: 17px !important;
+}
+.searchbutton img{
+	margin-top: 14px;
+}
