@@ -1,0 +1,50 @@
+.footer{
+	background: #D13B38;
+}
+.menu-itens ul li a{
+	text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.menu-itens ul li img{
+	margin-right: 20px;
+}
+.menu-itens{
+	padding: 85px 0;
+}
+.f-brand{
+	display: flex;
+    flex-direction: column;
+}
+.f-brand img{
+	width: 240px;
+    margin: auto;
+}
+.f-brand strong{
+	margin: auto;
+    font-size: 23px;
+    color: #fff;
+}
+.f-social{
+	display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.f-social .fb{
+	width: 10px;
+}
+.f-social .ig{
+	width: 21px;
+}
+.f-social .yt{
+	width: 30px;
+}
+.f-social .tw{
+	width: 23px;
+}
+.f-social a{
+	padding: 0 5px;
+}
+.f-copyright{
+	color: #fff;
+}

@@ -29,6 +29,9 @@
 	<?php  if (is_page('Blog')){ ?>
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/comp-cards-conteudo-desk.css">
 	<?php }?>
+	<?php  if (is_page('Sobre')){ ?>
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/sobre.css">
+	<?php }?>
 	
 </head>
 
@@ -41,7 +44,7 @@
 			<div class="menu-itens">
 				<ul>
 					<li><a href="">Home</a></li>
-					<li><a href="">Sobre</a></li>
+					<li><a href="<?php home_url() ?>/vidadigital/sobre">Sobre</a></li>
 					<li><a href="">Dicas da Bia</a></li>
 					<li><a href="">Trabalhe na Vida</a></li>
 					<li><a href="">Contato</a></li>

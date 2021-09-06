@@ -87,3 +87,8 @@
 .copy-icons a{
 	padding: 0 5px;
 }
+.wpp-contato img{
+	position: fixed;
+    right: 19px;
+    bottom: 20px;
+}

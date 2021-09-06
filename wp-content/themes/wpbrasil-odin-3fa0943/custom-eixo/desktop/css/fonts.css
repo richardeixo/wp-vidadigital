@@ -1,10 +1,10 @@
 @font-face {
   font-family: Mulish;
-  src: url(../../mulish.ttf);
+  src: url(../../fonts/mulish.ttf);
 }
 @font-face {
   font-family: Mulish Italic;
-  src: url(../../mulish-italic.ttf);
+  src: url(../../fonts/mulish-italic.ttf);
 }
 h1, h2, h3, h4, h5, span, p, a, button, ul, li, strong{
 	font-family: Mulish, sans-serif;

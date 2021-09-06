@@ -14,6 +14,9 @@
 	
 	
 	</div>
+	<div class="wpp-contato">
+		<a href=""><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-wpp.png"></a>
+	</div>
 	<div class="footer">
 		<div class="container f-cols">
 			<div class="f-col-1">
