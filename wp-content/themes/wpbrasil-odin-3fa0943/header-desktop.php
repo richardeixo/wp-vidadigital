@@ -24,14 +24,20 @@
 	<?php  if (is_page('Home')){ ?>
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/comp-slider-desk.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/comp-combos.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/comp-card-servicos.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/comp-destaque-venda.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/comp-destaque-vendacinza.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/comp-unidadehome.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/comp-diferenciais.css">
+
+
 	<?php }?>
 	<?php  if (is_page('Blog')){ ?>
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/comp-cards-conteudo-desk.css">
 	<?php }?>
-	
+
 </head>
 
 <body <?php body_class(); ?>>
 		<div class="main">
 
-		

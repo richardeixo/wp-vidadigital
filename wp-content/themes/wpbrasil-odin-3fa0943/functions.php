@@ -16,7 +16,7 @@
 /**
  * Sets content width.
  */
- 
+
  $device = 0;
 $iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
 $android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
@@ -24,7 +24,7 @@ $palmpre = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
 $berry = strpos($_SERVER['HTTP_USER_AGENT'],"BlackBerry");
 $ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
 
-if ($iphone || $android || $palmpre || $ipod || $berry == true) 
+if ($iphone || $android || $palmpre || $ipod || $berry == true)
 {
     $device = "mobile";
  }else {
@@ -333,3 +333,243 @@ if ( is_woocommerce_activated() ) {
 	require get_template_directory() . '/inc/woocommerce/functions.php';
 	require get_template_directory() . '/inc/woocommerce/template-tags.php';
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function post_slidedesk() {
+    $slidedesk = new Odin_Post_Type(
+        'Slider', // Nome (Singular) do Post Type.
+        'slidedesk' // Slug do Post Type.
+    );
+
+    $slidedesk->set_labels(
+        array(
+            'menu_name' => __( 'Slide', 'odin' )
+        )
+    );
+
+    $slidedesk->set_arguments(
+        array(
+            'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt','custom-fields' ),
+            'menu_icon' => 'dashicons-book-alt'
+        )
+    );
+}
+
+add_action( 'init', 'post_slidedesk', 1 );
+
+
+
+
+function post_slidemobile() {
+    $slidedesk = new Odin_Post_Type(
+        'Slider mobile', // Nome (Singular) do Post Type.
+        'slidemobile' // Slug do Post Type.
+    );
+
+    $slidemobile->set_labels(
+        array(
+            'menu_name' => __( 'Slide mobile', 'odin' )
+        )
+    );
+
+    $slidemobile->set_arguments(
+        array(
+            'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt','custom-fields' ),
+            'menu_icon' => 'dashicons-book-alt'
+        )
+    );
+}
+
+add_action( 'init', 'post_slidemobile', 1 );
+
+
+
+function post_combos() {
+    $combos = new Odin_Post_Type(
+        'Combo', // Nome (Singular) do Post Type.
+        'combos' // Slug do Post Type.
+    );
+
+    $combos->set_labels(
+        array(
+            'menu_name' => __( 'Combo', 'odin' )
+        )
+    );
+
+    $combos->set_arguments(
+        array(
+            'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt','custom-fields' ),
+            'menu_icon' => 'dashicons-book-alt'
+        )
+    );
+}
+
+add_action( 'init', 'post_combos', 1 );
+
+
+
+
+
+
+function post_servicos() {
+    $servicos = new Odin_Post_Type(
+        'servico', // Nome (Singular) do Post Type.
+        'servicos' // Slug do Post Type.
+    );
+
+    $servicos->set_labels(
+        array(
+            'menu_name' => __( 'servico', 'odin' )
+        )
+    );
+
+    $servicos->set_arguments(
+        array(
+            'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt','custom-fields' ),
+            'menu_icon' => 'dashicons-book-alt'
+        )
+    );
+}
+
+add_action( 'init', 'post_servicos', 1 );
+
+
+
+
+
+
+function post_lojawhite() {
+    $lojawhite = new Odin_Post_Type(
+        'lojas destaque', // Nome (Singular) do Post Type.
+        'lojawhite' // Slug do Post Type.
+    );
+
+    $lojawhite->set_labels(
+        array(
+            'menu_name' => __( 'lojas destaques', 'odin' )
+        )
+    );
+
+    $lojawhite->set_arguments(
+        array(
+            'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt','custom-fields' ),
+            'menu_icon' => 'dashicons-book-alt'
+        )
+    );
+}
+
+add_action( 'init', 'post_lojawhite', 1 );
+
+
+
+
+function post_lojacinza() {
+    $lojacinza = new Odin_Post_Type(
+        'lojas cinza', // Nome (Singular) do Post Type.
+        'lojacinza' // Slug do Post Type.
+    );
+
+    $lojacinza->set_labels(
+        array(
+            'menu_name' => __( 'lojas cinzas', 'odin' )
+        )
+    );
+
+    $lojacinza->set_arguments(
+        array(
+            'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt','custom-fields' ),
+            'menu_icon' => 'dashicons-book-alt'
+        )
+    );
+}
+
+add_action( 'init', 'post_lojacinza', 1 );
+
+
+
+function post_unidade() {
+    $unidade = new Odin_Post_Type(
+        'unidade', // Nome (Singular) do Post Type.
+        'unidade' // Slug do Post Type.
+    );
+
+    $unidade->set_labels(
+        array(
+            'menu_name' => __( 'unidades', 'odin' )
+        )
+    );
+
+    $unidade->set_arguments(
+        array(
+            'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt','custom-fields' ),
+            'menu_icon' => 'dashicons-book-alt'
+        )
+    );
+}
+
+add_action( 'init', 'post_unidade', 1 );
+
+
+

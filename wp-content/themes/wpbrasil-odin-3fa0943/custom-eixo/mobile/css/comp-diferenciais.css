@@ -1,0 +1,37 @@
+.diferentes {
+	padding: 80px 0px;
+}
+.diferentes h2 {
+	margin-bottom: 40px;
+}
+.diferentes p {
+	color: #737B7D;
+    font-size: 25px;
+    font-weight: 500;
+}
+.diferenca {
+	max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.rowelipse {
+	display: flex;
+	align-items: center;
+	justify-items: center;
+}
+.elipsediferenca {
+	max-width: 250px;
+}
+.alinhaelipses {
+	display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+#diferenciais {
+	max-width: 300px;
+	margin: auto;
+}

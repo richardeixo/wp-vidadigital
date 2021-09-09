@@ -21,10 +21,20 @@
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/bootstrap5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/fonts.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/global.css">
+	<?php  if (is_page('Home')){ ?>
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/css/comp-slider-desk.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/css/comp-combos.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/css/comp-card-servicos.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/css/comp-destaque-vendacinza.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/css/comp-unidadehome.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/css/comp-diferenciais.css">
+
+
+	<?php }?>
 	<?php  if (is_page('Blog')){ ?>
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/css/comp-cards-conteudo-mobile.css">
 	<?php }?>
-	
+
 </head>
 
 
