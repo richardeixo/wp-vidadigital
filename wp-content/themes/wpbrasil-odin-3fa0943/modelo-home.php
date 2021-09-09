@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Modelo Home
+ * Template Name: Modelo Home1
  *
  * The template for displaying pages with sidebar.
  *

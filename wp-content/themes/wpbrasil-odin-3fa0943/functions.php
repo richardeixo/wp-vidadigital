@@ -423,7 +423,7 @@ add_action( 'init', 'post_slidedesk', 1 );
 
 
 function post_slidemobile() {
-    $slidedesk = new Odin_Post_Type(
+    $slidemobile = new Odin_Post_Type(
         'Slider mobile', // Nome (Singular) do Post Type.
         'slidemobile' // Slug do Post Type.
     );
