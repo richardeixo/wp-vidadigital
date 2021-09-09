@@ -1,0 +1,62 @@
+.menu-fixo{
+	background: #D13B38;
+    display: flex;
+    position: sticky;
+}
+.header{
+	display: inline-flex;
+    align-items: center;
+}
+.menu-itens{
+	width: 70%;
+    display: inline-flex;
+    justify-content: center;
+    height: 100%;
+	padding: 0;
+}
+.menu-itens ul{
+	height: 100%;
+}
+.menu-itens ul li{
+	display: inline-flex;
+    position: relative;
+    float: left;
+    height: 100%;
+}
+.menu-itens ul li:hover{
+	background: #992B22;
+}
+.menu-itens ul li a{
+	color: #fff;
+    padding: 0px 21px;
+    text-decoration: none;
+	align-self: center;
+}
+.menu-itens ul li a:hover{
+	align-self: center;
+}
+.menu-logo{
+	width: 15%;
+}
+.menu-icons{
+	width: 15%;
+}
+.menu-icons a{
+	padding: 0 5px;
+}
+.searchbutton{
+	padding-left: 17px !important;
+}
+.searchbutton img{
+	margin-top: 14px;
+}
+.searchbar input{
+	border-radius: 25px;
+    padding: 10px 21px;
+    width: 100%;
+}
+.searchbar a{
+	position: absolute;
+    right: 3%;
+    top: 32%;
+}
