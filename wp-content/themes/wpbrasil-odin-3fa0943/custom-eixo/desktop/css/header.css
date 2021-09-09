@@ -5,27 +5,35 @@
 }
 .header{
 	display: inline-flex;
-	align-items: center;
-	padding: 10px 0;
+    align-items: center;
 }
 .menu-itens{
 	width: 70%;
     display: inline-flex;
     justify-content: center;
-    align-self: end;
+    height: 100%;
+	padding: 0;
+}
+.menu-itens ul{
+	height: 100%;
 }
 .menu-itens ul li{
 	display: inline-flex;
     position: relative;
     float: left;
+    height: 100%;
+}
+.menu-itens ul li:hover{
+	background: #992B22;
 }
 .menu-itens ul li a{
 	color: #fff;
     padding: 0px 21px;
     text-decoration: none;
+	align-self: center;
 }
 .menu-itens ul li a:hover{
-	font-weight: bold;
+	align-self: center;
 }
 .menu-logo{
 	width: 15%;
@@ -41,4 +49,14 @@
 }
 .searchbutton img{
 	margin-top: 14px;
+}
+.searchbar input{
+	border-radius: 25px;
+    padding: 10px 21px;
+    width: 100%;
+}
+.searchbar a{
+	position: absolute;
+    right: 3%;
+    top: 32%;
 }

@@ -12,7 +12,7 @@ get_header($device);
 if ($device == "desktop") {
 	include('custom-eixo/desktop/sobre.html');
 }else{
-	include('custom-eixo/mobile/home-m.php');
+	include('custom-eixo/mobile/sobre-m.html');
 }
 get_footer($device); 
 ?>

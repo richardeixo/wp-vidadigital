@@ -1,0 +1,125 @@
+body{
+	background: #E5E5E5;
+}
+.c-sobre{
+	padding: 90px 0;
+}
+.bia, .ale{
+	padding: 30px 0; 
+}
+.bia p{
+	
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-left: -20px;
+    z-index: 0;
+    text-align: justify;
+}
+.ale p{
+	
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-left: -20px;
+    z-index: 0;
+    text-align: justify;
+}
+.titulo-sessao{
+	display: inline-flex;
+	align-items: center;
+}
+.ico-missao img{
+	padding: 21px;
+}
+.ico-visao img{
+	padding: 16px 26px;
+}
+.ico-valores img{
+	padding: 12px 11px;
+}
+.ico-social img{
+	padding: 12px 12px
+}
+.ico-cultura img{
+	padding: 16px 8px;
+}
+.ico-missao, .ico-valores, .ico-cultura{
+	background: #D13B38;
+	width: 124px;
+	height: 124px;
+	border-radius: 25px;
+}
+.ico-visao, .ico-social{
+	background: #fff;
+	width: 124px;
+	height: 124px;
+	border-radius: 25px;
+}
+.missao .titulo-sessao h2, .valores .titulo-sessao h2, .cultura .titulo-sessao h2{
+	color: #D13B38;
+    font-weight: bold;
+    margin-left: 19px;
+	font-size: 50px;
+}
+.missao p, .valores p, .cultura p{
+	color: #D13B38;
+	font-size: 23px;
+	padding-top: 20px;
+}
+.missao, .visao, .valores, .cultura, .social{
+	padding: 50px 0; 
+}
+.visao .titulo-sessao h2, .social .titulo-sessao h2{
+	color: #fff;
+	font-weight: bold;
+    margin-left: 19px;
+	font-size: 50px;
+}
+.visao p, .social p{
+	color: #fff;
+	font-size: 23px;
+	padding-top: 20px;
+}
+.txt-sobre h1{
+	color: #323232;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    font-size: 45px;
+    padding: 25px 0;
+}
+.txt-sobre{
+}
+.sobre img{
+	width: 100%;
+    border-radius: 35px;
+}
+.txt-sobre p{
+	font-size: 18px;
+	text-align: justify;
+}
+.c-bia, .c-ale{
+	background: #fff;
+    padding: 30px 0;
+    border-radius: 20px;
+}
+.c-bia img{
+	border-radius: 20px;
+    width: 234px;
+    display: block;
+    z-index: 1;
+    margin: auto;
+}
+.c-ale img{
+	border-radius: 20px;
+    width: 234px;
+    display: block;
+    z-index: 1;
+    margin: auto;
+}
+.visao, .social{
+	background: #D13B38; 
+}

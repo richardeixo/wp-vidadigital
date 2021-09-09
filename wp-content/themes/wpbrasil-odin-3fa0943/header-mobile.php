@@ -25,6 +25,9 @@
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/css/footer-m.css">
 	<?php  if (is_page('Blog')){ ?>
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/css/comp-cards-conteudo-mobile.css">
+	<?php }?>
+  <?php  if (is_page('Sobre')){ ?>
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/css/sobre.css">
 	<?php }?>	
 </head>
 
@@ -37,7 +40,7 @@
            <div class="container-fluid">
              <!-- Brand and toggle get grouped for better mobile display -->
              <div class="navbar-header">
-               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+               <button type="button" class="navbar-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                  <span class="sr-only">Toggle navigation</span>
                  <span class="icon-bar"></span>
                  <span class="icon-bar"></span>
@@ -57,7 +60,7 @@
 					<a href=""><img class="tw" src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-tw.png"></a>
 			   </div>
 
-             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+             <div class="collapse navbar-collapse" id="collapseExample">
                
                <div style="width: 100px; height: 100px; background: #000;"
                        <div class="tabb">

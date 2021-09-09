@@ -67,7 +67,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="<?php bloginfo('template_directory') ?>/custom-eixo/bootstrap5/js/bootstrap.bundle.min.js"></script>
+	<script src="<?php bloginfo('template_directory') ?>/custom-eixo/bootstrap5/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/footer.css">
 </body>
 </html>
