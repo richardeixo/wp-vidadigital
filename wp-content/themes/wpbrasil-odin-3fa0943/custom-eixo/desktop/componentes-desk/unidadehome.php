@@ -28,47 +28,11 @@ $the_query = new WP_Query( $args );
 				<div class="listaunidades">
 					<h2>Unidades</h2>
 					<div class="unidadesingle">
-						<img src="">
-						<a href="#">Claro Unidade de algum lugar teste texto grande</a>
-					</div>
-					<div class="unidadesingle">
-						<img src="">
-						<a href="#">Claro Unidade de algum lugar teste texto grande</a>
-					</div>
-					<div class="unidadesingle">
-						<img src="">
-						<a href="#">Claro Unidade de algum lugar teste texto grande</a>
-					</div>
-					<div class="unidadesingle">
-						<img src="">
-						<a href="#">Claro Unidade de algum lugar teste texto grande</a>
-					</div>
-					<div class="unidadesingle">
-						<img src="">
-						<a href="#">Claro Unidade de algum lugar teste texto grande</a>
-					</div>
-					<div class="unidadesingle">
-						<img src="">
-						<a href="#">Claro Unidade de algum lugar teste texto grande</a>
-					</div>
-					<div class="unidadesingle">
-						<img src="">
-						<a href="#">Claro Unidade de algum lugar teste texto grande</a>
-					</div>
-					<div class="unidadesingle">
-						<img src="">
-						<a href="#">Claro Unidade de algum lugar teste texto grande</a>
-					</div>
-					<div class="unidadesingle">
-						<img src="">
-						<a href="#">Claro Unidade de algum lugar teste texto grande</a>
-					</div>
-					<div class="unidadesingle">
-						<img src="">
-						<a href="#">Claro Unidade de algum lugar teste texto grande</a>
+						<img src="http://eixodigital.online/vidadigital/wp-content/uploads/2021/09/Group-200-1-1.png">
+						<a href="http://eixodigital.online/vidadigital/contato/"><?= $post->post_title;?></a>
 					</div>
 				</div>
-				<a href="#" class="lkviewunidade"><button>Ver todas</button></a>
+				<a href="http://eixodigital.online/vidadigital/contato/" class="lkviewunidade"><button>Ver todas</button></a>
 			</div>
 
 		</div>
