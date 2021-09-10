@@ -29,6 +29,9 @@
   <?php  if (is_page('Sobre')){ ?>
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/css/sobre.css">
 	<?php }?>
+	<?php  if (is_page('404')){ ?>
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/404.css">
+	<?php }?>
   <?php  if (is_page('Fale com a Vida Digital')){ ?>
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/css/fale.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/css/comp-unidadefale.css">

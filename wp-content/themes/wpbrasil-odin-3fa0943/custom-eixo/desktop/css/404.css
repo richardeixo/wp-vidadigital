@@ -1,0 +1,17 @@
+.parte404aviso {
+	text-align: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.parte404aviso h1 {
+	font-weight: bold;
+    color: #D13B38;
+    font-size: 150px;
+}
+.parte404aviso span {
+	font-weight: bold;
+    font-size: 20px;
+}
