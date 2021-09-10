@@ -40,6 +40,9 @@
 	<?php  if (is_page('Sobre')){ ?>
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/sobre.css">
 	<?php }?>
+	<?php  if (is_page('Fale com a Vida Digital')){ ?>
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/fale.css">
+	<?php }?>
 </head>
 
 <body <?php body_class(); ?>>

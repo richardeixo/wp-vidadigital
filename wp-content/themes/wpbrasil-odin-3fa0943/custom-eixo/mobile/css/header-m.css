@@ -62,3 +62,37 @@
 .menu-icons .tw{
 	width: 26px
 }
+.navbar-brand img{
+    width: 130px;
+}
+.tab-pane ul a{
+    color: #000;
+    text-decoration: none;
+}
+.tab-pane ul a:hover{
+    background: #DFDFDF;
+}
+.tab-pane ul li{
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 0;
+}
+.tab-pane ul li img{
+    height: 16px;
+    position: absolute;
+    right: 30px;
+}
+.navbar-collapse{
+    background: #fff;
+    padding: 20px;
+}
+.searchbar input{
+	border-radius: 25px;
+    padding: 10px 21px;
+    width: 100%;
+}
+.searchbar a{
+	position: absolute;
+    right: 10%;
+    top: 32%;
+}
