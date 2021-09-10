@@ -28,9 +28,10 @@
 	<?php }?>
   <?php  if (is_page('Sobre')){ ?>
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/css/sobre.css">
-	<?php }?>	
+	<?php }?>
   <?php  if (is_page('Fale com a Vida Digital')){ ?>
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/css/fale.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/css/comp-unidadefale.css">
 	<?php }?>
 	<?php  if (is_page('Trabalhe na Vida Digital')){ ?>
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/css/trabalhe.css">
@@ -56,7 +57,7 @@
                    <img alt="Brand" src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/logo.png">
                  </a>
                <a class="btn-search" href="#searchbar"  data-bs-toggle="collapse" data-bs-target="#searchbar" aria-expanded="false" aria-controls="searchbar"><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/lupa-m.png"></a>
-               
+
              </div>
 
              	<div class="menu-icons">
@@ -66,12 +67,12 @@
 					<a href=""><img class="tw" src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-tw.png"></a>
 			   </div>
 
-             
+
      </nav>
      <div class="collapse navbar-collapse" id="collapseExample">
-               
-               
-                       
+
+
+
                <div class="tab-pane">
                    <ul class="nav navbar-nav">
                        <a href="<?php home_url() ?>/vidadigital/"><li>Home<img src="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/imagens/setinha.png"></li></a>
@@ -81,10 +82,10 @@
                        <a href="<?php home_url() ?>/vidadigital/contato/"><li>Contato<img src="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/imagens/setinha.png"></li></a>
                     </ul>
                </div>
-          
+
 </div>
 <div class="collapse" id="searchbar">
 		<div class="card card-body searchbar">
-		<input type="text" placeholder="Como podemos ajudar?"><a href=""><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/search-lupa.png"/></a> 
+		<input type="text" placeholder="Como podemos ajudar?"><a href=""><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/search-lupa.png"/></a>
 		</div>
 	</div>
