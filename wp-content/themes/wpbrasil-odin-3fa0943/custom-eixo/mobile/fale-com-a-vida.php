@@ -10,7 +10,7 @@
             <label>Nome</label><input type="text" id="nome" placeholder="Nome e Sobrenome">
             <input type="email" id="email" placeholder="E-mail">
             <textarea id="mensagem" placeholder="Sua mensagem" rows="5" cols="33">
-                
+
             </textarea>
             <input type="submit" class="btn-enviar" value="Enviar">
         </form>
@@ -39,4 +39,9 @@
         </div>
     </div>
     </div>
+</section>
+<section id="unidadesfale">
+<?php
+include('componentes-mobile/unidades-fale.php');
+?>
 </section>
