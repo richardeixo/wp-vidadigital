@@ -27,10 +27,13 @@ $the_query = new WP_Query( $args );
 			<div class="col-md-5 parteunidade">
 				<div class="listaunidades">
 					<h2>Unidades</h2>
+					<?php
+						foreach ($the_query->posts as $key => $post) { ?>
 					<div class="unidadesingle">
 						<img src="http://eixodigital.online/vidadigital/wp-content/uploads/2021/09/Group-200-1-1.png">
 						<a href="http://eixodigital.online/vidadigital/contato/"><?= $post->post_title;?></a>
 					</div>
+					<?php }?>
 				</div>
 				<a href="http://eixodigital.online/vidadigital/contato/" class="lkviewunidade"><button>Ver todas</button></a>
 			</div>
