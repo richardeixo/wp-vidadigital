@@ -32,6 +32,9 @@
   <?php  if (is_page('Fale com a Vida Digital')){ ?>
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/css/fale.css">
 	<?php }?>
+	<?php  if (is_page('Trabalhe na Vida Digital')){ ?>
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/css/trabalhe.css">
+	<?php }?>
 </head>
 
 
@@ -74,7 +77,7 @@
                        <a href="<?php home_url() ?>/vidadigital/"><li>Home<img src="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/imagens/setinha.png"></li></a>
                        <a href="<?php home_url() ?>/vidadigital/sobre/"><li>Sobre<img src="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/imagens/setinha.png"></li></a>
                        <a href="<?php home_url() ?>/vidadigital/dicas-da-bia/"><li>Dicas da Bia<img src="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/imagens/setinha.png"></li></a>
-                       <a href="<?php home_url() ?>/vidadigital/trabalhe-na-vida/"><li>Trabalhe na Vida<img src="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/imagens/setinha.png"></li></a>
+                       <a href="<?php home_url() ?>/vidadigital/trabalhe-na-vida-digital/"><li>Trabalhe na Vida<img src="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/imagens/setinha.png"></li></a>
                        <a href="<?php home_url() ?>/vidadigital/contato/"><li>Contato<img src="<?php bloginfo('template_directory') ?>/custom-eixo/mobile/imagens/setinha.png"></li></a>
                     </ul>
                </div>

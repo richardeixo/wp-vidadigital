@@ -43,21 +43,24 @@
 	<?php  if (is_page('Fale com a Vida Digital')){ ?>
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/fale.css">
 	<?php }?>
+	<?php  if (is_page('Trabalhe na Vida Digital')){ ?>
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/trabalhe.css">
+	<?php }?>
 </head>
 
 <body <?php body_class(); ?>>
 <div class="menu-fixo">
 		<div class="container header">
 			<div class="menu-logo">
-				<a href="<?php home_url() ?>"><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/logo.png"></a>
+				<a href="<?php home_url() ?>/vidadigital/"><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/logo.png"></a>
 			</div>
 			<div class="menu-itens">
 				<ul>
-					<li><a href="">Home</a></li>
-					<li><a href="<?php home_url() ?>/vidadigital/sobre">Sobre</a></li>
-					<li><a href="">Dicas da Bia</a></li>
-					<li><a href="">Trabalhe na Vida</a></li>
-					<li><a href="">Contato</a></li>
+					<li><a href="<?php home_url() ?>/vidadigital/">Home</a></li>
+					<li><a href="<?php home_url() ?>/vidadigital/sobre/">Sobre</a></li>
+					<li><a href="<?php home_url() ?>/vidadigital/dicas-da-bia/">Dicas da Bia</a></li>
+					<li><a href="<?php home_url() ?>/vidadigital/trabalhe-na-vida-digital/">Trabalhe na Vida</a></li>
+					<li><a href="<?php home_url() ?>/vidadigital/contato/">Contato</a></li>
 				</ul>
 			</div>
 			<div class="menu-icons">
