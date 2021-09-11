@@ -1,0 +1,38 @@
+#unidadesfale {
+	display: flex;
+	margin-top: 80px;
+}
+.todasunidades {
+    margin: auto;
+}
+.unidade-single {
+	width: 315px;
+	border-radius: 20px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.content-unitxt {
+	background:#D13B38;
+	color: white;
+	padding: 15px;
+	height: 330px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+}
+
+.bgunisingle {
+	background: url('http://eixodigital.online/vidadigital/wp-content/uploads/2021/09/VIDA-DIGITAL-aguas-lindasSHopping-2-1.jpg');
+	height: 240px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.btnsuni {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-items: center;
+}

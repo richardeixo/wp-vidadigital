@@ -1,0 +1,52 @@
+.titulo{
+    padding: 100px 0 40px 0px;
+}
+.titulo h1{
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+}
+.titulo img{
+    padding: 10px;
+    border-radius: 20px;
+}
+.conteudo img{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+.img-txt .txt p{
+    width: 95%;
+    float: right;
+}
+.img-txt img{
+    width: 50%;
+    border-radius: 15px;
+}
+.img-txt{
+    display: flex;
+}
+.img-txt .txt{
+    align-self: center;
+}
+ol li{
+    list-style: disc;
+}
+ol{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.autor-cat{
+    margin-top: 30px;
+    font-size: 14px;
+}
+.autor-cat a{
+    color: #212529;
+    text-decoration: none;
+}
+.autor-cat a:hover{
+    text-decoration:underline;
+}
+.conteudo{
+    font-size: 20px;
+}

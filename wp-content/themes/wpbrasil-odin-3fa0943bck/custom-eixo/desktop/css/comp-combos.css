@@ -1,0 +1,40 @@
+#combos .container{
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+}
+.comboflex{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.combo-unico {
+    max-width: 300px;
+    margin-right: 10px;
+}
+.dcabecalho{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.dcabecalho img {
+    margin-right: 20px;
+}
+.bgimgcabecalho {
+    background:url("http://localhost/wp-vidadigital/wp-content/uploads/2021/09/combo1-1.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+    max-width: 100%;
+    border-radius: 20px;
+}
+.rodape-combo{
+    color:#737B7D;
+}
+.rodape-combo button {
+    border: none;
+    background: #F5BE60;
+    color: #323232;
+    padding: 10px 105px;
+    font-weight: bold;   
+}

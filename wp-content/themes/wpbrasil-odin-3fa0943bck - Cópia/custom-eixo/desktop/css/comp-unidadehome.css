@@ -1,0 +1,42 @@
+.univer {
+	background: #D13B38;
+}
+.univer button {
+	border: none;
+    background: #F5BE60;
+    color: #323232;
+    padding: 10px 45px;
+    font-weight: bold;
+    border-radius: 80px;
+}
+.inver {
+	padding: 45px 0px;
+}
+.col-smallimg img {
+	padding-left: 10px;
+	margin-bottom: 20px;
+	border-radius: 25px;
+}
+.prebmg {
+	display: flex;
+}
+.parteunidade {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.unidadesingle {
+	margin-bottom: 17px;
+}
+.unidadesingle a {
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+}
+.listaunidades h2 {
+	margin-bottom: 45px;
+	color: white;
+}
+.lkviewunidade {
+	padding-top: 40px;
+}

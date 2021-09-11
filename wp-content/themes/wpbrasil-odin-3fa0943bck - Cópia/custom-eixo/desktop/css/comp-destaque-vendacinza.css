@@ -1,0 +1,67 @@
+#destaquevendacinza {
+    margin-top: 80px;
+}
+.conteudo-destaquevendacinza {
+    max-width: 595px;
+    display: flex;
+    align-items: center;
+	flex-direction: column;
+
+	background: #DADADA;
+    max-width: 370px;
+	padding: 40px 0px;
+}
+.celularcinza {
+    max-width: 250px;
+}
+.conteudoprecoscinza {
+    display: flex;
+    align-items: center;
+}
+.conteudo-destaquevendacinza button {
+    border: none;
+    background: #F5BE60;
+    color: #323232;
+    padding: 10px 45px;
+    font-weight: bold;
+    border-radius: 80px;
+}
+.sacolacinza {
+    width: 26px;
+    height: 26px;
+    margin-right: 7px;
+	margin-top: -55px;
+}
+.textoscelularcinza p {
+    margin: 0px;
+}
+.titulocelularcinza {
+    color: #323232;
+    font-weight: bold;
+}
+.marcacelularcinza {
+    font-size: 14px;
+}
+.titulocelularcinza {
+    line-height: 16px;
+}
+.apenasprecocinza {
+    font-size: 18px;
+}
+.parcelamentocinza {
+    font-size: 14px;
+}
+.divparcelacinza {
+    transform: translate(-20%, 0%);
+}
+.organizacinza {
+	display: flex;
+	margin-bottom: 20px;
+}
+.mxacol {
+	max-width: 395px;
+	margin-bottom: 20px;
+}
+.mxcolrow {
+	justify-content: center !important;
+}

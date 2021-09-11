@@ -1,0 +1,35 @@
+.servicoscontent h2 {
+    
+    margin-bottom: 30px;
+}
+.imgbgservico{
+    background-image: url("http://localhost/wp-vidadigital/wp-content/uploads/2021/09/casal.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+    max-width: 100%;
+}
+.contentservico {
+    max-width: 95%;
+}
+.boxtxtservico {
+    background: #D13B38;
+    color: white;
+    padding: 35px;
+}
+.cabecalhoserv{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.cabecalhoserv img {
+    margin-right: 20px;
+}
+.boxtxtservico button {
+    border: none;
+    background: #F5BE60;
+    color: #323232;
+    padding: 10px 45px;
+    font-weight: bold;
+    border-radius: 80px;
+}

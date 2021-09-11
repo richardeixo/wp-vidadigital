@@ -1,0 +1,41 @@
+.univer {
+	background: #D13B38;
+}
+.univer button {
+	border: none;
+    background: #F5BE60;
+    color: #323232;
+    padding: 10px 45px;
+    font-weight: bold;
+    border-radius: 80px;
+}
+.inver {
+	padding: 45px 0px;
+}
+.col-smallimg img {
+	padding-left: 10px;
+	margin-bottom: 20px;
+	border-radius: 25px;
+	max-width: 150px;
+}
+.prebmg {
+	display: flex;
+}
+
+.col-smallimg {
+	display: flex;
+    flex-wrap: wrap;
+	margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.lkviewunidade {
+	padding-top: 15px;
+}
+.limitalinha {
+	max-width: 300px;
+}
+.limitalinha h2 {
+	padding-left: 25px;
+}

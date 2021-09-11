@@ -1,0 +1,50 @@
+#destaquevenda {
+    margin-top: 80px;
+}
+.conteudo-destaquevenda {
+    max-width: 595px;
+    display: flex;
+    align-items: center;
+}
+.celular{
+    max-width: 250px;
+}
+.conteudoprecos {
+    display: flex;
+    align-items: center;
+}
+.conteudo-destaquevenda button {
+    border: none;
+    background: #F5BE60;
+    color: #323232;
+    padding: 10px 45px;
+    font-weight: bold;
+    border-radius: 80px;
+}
+.sacola {
+    width: 26px;
+    height: 26px;
+    margin-right: 7px;
+}
+.textoscelular p {
+    margin: 0px;
+}
+.titulocelular {
+    color: #323232;
+    font-weight: bold;
+}
+.marcacelular {
+    font-size: 14px;
+}
+.titulocelular {
+    line-height: 16px;
+}
+.apenaspreco {
+    font-size: 18px; 
+}
+.parcelamento {
+    font-size: 14px;
+}
+.divparcela {
+    transform: translate(-20%, 0%);
+}

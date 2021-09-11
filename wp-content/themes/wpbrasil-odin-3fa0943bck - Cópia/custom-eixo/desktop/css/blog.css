@@ -1,0 +1,94 @@
+.titulo{
+    padding: 60px 0;
+}
+.titulo img{
+    display: block;
+    margin: auto;
+}
+.titulo h1{
+    text-align: center;
+}
+.principal{
+    background: #D13B38;
+    padding: 60px;
+}
+.principal img{
+    border-radius: 30px;
+    width: 45%;
+}
+.post-info{
+    display: inline-flex;
+    flex-direction: column;
+    width: 49%;
+    margin-left: 56px;
+    color: #fff;
+    vertical-align: middle;
+}
+.post-info h2{
+    font-weight: bold;
+}
+.post-info .autor-categoria{
+    padding: 0;
+}
+.post-info p{
+    padding: 30px 0;
+    text-align: justify;
+}
+.post-info a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.post-info a img{
+    width: 13px;
+    margin-left: 15px;
+}
+.filtro-search{
+    padding: 40px 0px;
+    margin-bottom: 50px;
+}
+.selecionar{
+    display: inline;
+    border: none;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    width: 140px;
+    padding: 0px 12px;
+}
+.searchblog{
+    display: flex;
+    float: right;
+}
+.searchblog input{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    border: none;
+    height: 45px;
+    width: 240px;
+    margin-top: 2px;
+    padding: 0 10px;
+}
+.searchblog button{
+    background: #D13B38;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: -48px;
+}
+
+.cards-blog{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 31px;
+}
+.cards-blog .cartao-conteudo{
+    max-width: 350px;
+}
+.cards-post{
+    margin-bottom: 50px;
+}
+
+hr{
+    margin: 50px 0;
+}

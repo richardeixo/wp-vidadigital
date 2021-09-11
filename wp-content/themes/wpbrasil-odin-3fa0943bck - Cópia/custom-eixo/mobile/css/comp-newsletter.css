@@ -1,0 +1,29 @@
+.f-news img{
+    display: block;
+    position: absolute;
+    padding: 22px;
+    left: 8px;
+}
+.f-news input{
+    background: #FFFFFF;
+    border: 1px solid #D13B38;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 35px;
+    padding: 20px 50px 20px 37px;
+    margin: 10px 6px;
+    width: 90%;
+}
+.f-news button{
+    display: block;
+    background: #F30603;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 35px;
+}
+.f-news{
+    text-align: -webkit-center;
+    padding: 70px 0;
+}

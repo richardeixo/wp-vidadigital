@@ -1,0 +1,70 @@
+body{
+    background: #E5E5E5;
+}
+.formulario h1{
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+}
+.card-formulario .btn-enviar{
+    display: block;
+    width: 100%;
+    background: #F30603;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    font-family: 'Mulish';
+    border-radius: 5px;
+    margin-top: 60px;
+}
+.card-formulario{
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+}
+.card-formulario strong{
+    color: #000;
+}
+.card-formulario input, .card-formulario textarea{
+    display: block;
+    width: 100%;
+    border: 1px solid #B4BEC8;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 30px;
+    background: #E5E5E5;
+}
+.card-formulario label{
+    position: relative;
+    top: 12px;
+    left: 11px;
+    background: #E5E5E5;
+    padding: 0px 8px;
+    font-family: 'Mulish';
+}
+.informacoes{
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+}
+.mapa iframe{
+    width: 100%;
+    height: 50%;
+}
+.social-icons{
+    padding: 30px;
+}
+.social-icons a{
+    margin: 0 5px;
+}
+.locali, .sac, .email{
+    padding: 25px;
+}
+.locali a, .sac a, .email a{
+    color: #000;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.locali a:hover, .sac a:hover, .email a:hover{
+    font-weight: bold;
+}

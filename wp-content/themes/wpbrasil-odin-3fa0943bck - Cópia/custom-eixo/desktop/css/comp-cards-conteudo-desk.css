@@ -1,0 +1,38 @@
+.cartao-conteudo {
+    max-width: 300px;
+    overflow:hidden;
+    border-radius: 42px;
+}
+.bgimagem-card {
+    background-image: url("https://images.unsplash.com/photo-1598543821338-3b6306e0dcc3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmlzc2FuJTIwcjM1JTIwZ3RyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px;
+    max-width: 100%;
+}
+.text-card {
+    background: #D13B38;
+    color: white;
+    padding: 25px;
+}
+.text-card a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+}
+.cabecalho-card-div {
+    border-bottom: 1px solid white;
+    margin: 15px 0px;
+}
+.cabecalho-card h3 {
+    font-size: 25px;
+}
+.cabecalho-card span {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.resumo-card {
+    font-size: 16px;
+}
