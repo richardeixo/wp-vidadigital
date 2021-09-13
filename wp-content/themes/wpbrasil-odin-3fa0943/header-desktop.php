@@ -30,6 +30,7 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/comp-destaque-vendacinza.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/comp-unidadehome.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/comp-diferenciais.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/comp-diferenciaisteste.css">
 
 
 	<?php }?>
@@ -77,12 +78,12 @@
 				<a href=""><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-tw.png"></a>
 				<a class="searchbutton" href="#searchbar"  data-bs-toggle="collapse" data-bs-target="#searchbar" aria-expanded="false" aria-controls="searchbar"><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/lupa.png"></a>
 			</div>
-			
+
 		</div>
 	</div>
 	<div class="collapse" id="searchbar">
 		<div class="card card-body searchbar">
-		<input type="text" placeholder="Como podemos ajudar?"><a href=""><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/search-lupa.png"/></a> 
+		<input type="text" placeholder="Como podemos ajudar?"><a href=""><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/search-lupa.png"/></a>
 		</div>
 	</div>
 		<div class="main">
